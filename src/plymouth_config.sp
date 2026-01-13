@@ -69,7 +69,7 @@ global.OverriddenPasswordMessage = "";
 //
 //Default value:
 //"Password"
-global.PasswordText = "Password";
+global.PasswordText = "Hasło";
 
 //Title of the password screen
 //Prerequisites:
@@ -90,7 +90,7 @@ global.OverriddenAnswerMessage = "";
 //Text that is shown above the textbox.
 //Default value:
 //"Password"
-global.AnswerText = "Password";
+global.AnswerText = "Hasło";
 
 //Defines whether elements in the Boot Manager screen (password and answer screen), such as rectangles and texts, should be scaled or not.
 //Default is set to 0 because the screen may look weird.
@@ -105,7 +105,7 @@ global.ScaleBootManager = 0;
 //If you set UseShadow to 1 and modified this key after installation, please consider regenerating the blur effect after modifying.
 //Default value:
 //"Shutting down..."
-global.ShutdownText = "Shutting down...";
+global.ShutdownText = "Trwa zamykanie...";
 
 //Text that is shown when the system is rebooting.
 //Both Windows 7 and Windows Vista use Shutting Down... instead of Rebooting... but to make this screen make more sense, you will see Rebooting... as the default value.
@@ -114,7 +114,7 @@ global.ShutdownText = "Shutting down...";
 //If you set UseShadow to 1 and modified this key after installation, please consider regenerating the blur effect after modifying.
 //Default value:
 //"Rebooting..."
-global.RebootText = "Rebooting...";
+global.RebootText = "Trwa zamykanie...";
 
 //Text that is shown when the fake logoff will be shown.
 //Prerequisites:
@@ -122,7 +122,7 @@ global.RebootText = "Rebooting...";
 //If you set UseShadow to 1 and modified this key after installation, please consider regenerating the blur effect after modifying.
 //Default value:
 //"Logging off..."
-global.LogoffText = "Logging off...";
+global.LogoffText = "Trwa wylogowywanie...";
 
 //Text that is shown when the system is updating.
 //This text supports formatting. Use %i for number.
@@ -131,13 +131,13 @@ global.LogoffText = "Logging off...";
 //If you set UseShadow to 1 and modified this key after installation, please consider regenerating the blur effect after modifying.
 //Default Value:
 //"Configuring Windows Updates\n%i% complete\nDo not turn off your computer.
-global.UpdateTextMTL = "Configuring Windows Updates\n%i% complete\nDo not turn off your computer.";
+global.UpdateTextMTL = "Konfigurowanie aktualizacji systemu Windows \n Ukończono %i%\nNie wyłączaj komputera.";
 
 //Defines whether the Vista boot screen should be used or not:
 //Accepted values:
 //1 - Use the Vista boot screen.
 //0 - Use the 7 boot screen.
-global.UseLegacyBootScreen = 1;
+global.UseLegacyBootScreen = 0;
 
 //Defines whether the shadow effect should be applied or not.
 //Modifying this value after installation requires the blur effects to be regenerated. Simply use the `./gen_blur.sh` script for it.
@@ -150,12 +150,12 @@ global.UseShadow = 0;
 //Accepted values:
 //"7": Use Windows 7 background and branding.
 //"vista": Use Windows Vista background and branding.
-global.AuthuiStyle = "vista";
+global.AuthuiStyle = "7";
 
 //The text that is displayed on Windows 7 boot screen when the system is starting normally.
 //Default value:
 //"Starting Windows"
-global.StartingText = "Starting Windows";
+global.StartingText = "Trwa uruchamianie systemu Windows";
 
 //The text that is displayed on Windows 7 boot screen when the system is returning from hibernation.
 //Default value:
@@ -172,12 +172,12 @@ global.CopyrightText = "© Microsoft Corporation";
 //Accepted values:
 //1 - Use Windows Vista's no GUI resume screen.
 //0 - Don't use Windows Vista's no GUI resume screen.
-global.UseNoGuiResume = 1;
+global.UseNoGuiResume = 0;
 
 //Text that is shown below of the progress bar on the Windows Vista hibernation resume screen.
 //Default value:
 //"Resuming Windows..."
-global.NoGuiResumeText = "Resuming Windows...";
+global.NoGuiResumeText = "Trwa wznaniwanie systemu Windows...";
 
 //Slows down your boot in seconds.
 //Works when the plymouth-vista-slow-boot-animation.service is enabled.

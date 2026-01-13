@@ -160,7 +160,7 @@ global.StartingText = "Trwa uruchamianie systemu Windows";
 //The text that is displayed on Windows 7 boot screen when the system is returning from hibernation.
 //Default value:
 //"Resuming Windows"
-global.ResumingText = "Resuming Windows";
+global.ResumingText = "Wznawianie systemu Windows";
 
 //Copyright text of the Windows 7 boot screen that is displayed on bottom center of the screen.
 //Default value:
@@ -177,7 +177,7 @@ global.UseNoGuiResume = 0;
 //Text that is shown below of the progress bar on the Windows Vista hibernation resume screen.
 //Default value:
 //"Resuming Windows..."
-global.NoGuiResumeText = "Trwa wznaniwanie systemu Windows...";
+global.NoGuiResumeText = "Wznaniwanie systemu Windows";
 
 //Slows down your boot in seconds.
 //Works when the plymouth-vista-slow-boot-animation.service is enabled.
